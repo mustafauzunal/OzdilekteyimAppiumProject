@@ -1,0 +1,1 @@
+var index = {"Tags":{},"Specs":{"Özdilekteyim Appium Test":["specs/example.html"]}};

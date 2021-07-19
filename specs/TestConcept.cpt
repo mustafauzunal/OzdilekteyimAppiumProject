@@ -1,0 +1,60 @@
+Created by testinium on 17.07.2021
+
+This is a concept file with following syntax for each concept.
+# Uygulamanın açıldığı kontrol edilir
+*"Anasayfa" isimli sayfa açıldıysa "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" li elementin boş olup olmadığını kontrol et
+
+
+# Alışverişe başla butonuna tıklanır
+*"com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" id li ve "Alışverişe Başla" isimli elemente tıkla
+
+# Alışveriş sayfasının açıldığı kontrol edilir
+*"Alışveriş" isimli sayfa açıldıysa "com.ozdilek.ozdilekteyim:id/relLayMarket" li elementin boş olup olmadığını kontrol et
+
+# Kategoriler sayfası açılır
+*"com.ozdilek.ozdilekteyim:id/nav_categories" id li ve "Kategoriler" isimli elemente tıkla
+
+# Kategoriler sayfasının açıldığı kontrol edilir
+*"Kategoriler" isimli sayfa açıldıysa "com.ozdilek.ozdilekteyim:id/recyclerCategories" li elementin boş olup olmadığını kontrol et
+
+# Menüden kadın seçeneğine tıklanır
+*"//*[@text='Kadın']" xpath li ve "Kadın" isimli elemente tıkla
+
+# Pantolon kategorisi açılır
+*"//*[@text='Pantolon']" xpath li ve "Pantolon" isimli elemente tıkla
+
+# Sayfanın en aşağısına kadar swipe edilir
+*Sayfayı aşağıya kaydır
+
+# Ekrandaki son ürün için favoriye ekleme butonuna tıklanır
+*"//*[@resource-id='com.ozdilek.ozdilekteyim:id/recyclerView']/android.widget.FrameLayout[last()]/android.view.ViewGroup/android.widget.ImageView[last()]" xpath li ve "Favoriye ekle" isimli elemente tıkla
+
+# Giriş yapma sayfasının açıldığı ilk kez kontrol edilir
+*"Giriş yapma" isimli sayfa açıldıysa "com.ozdilek.ozdilekteyim:id/btnLogin" li elementin boş olup olmadığını kontrol et
+
+# Geri butonuna ilk kez tıklanır
+*"com.ozdilek.ozdilekteyim:id/ivBack" id li ve "Geri" isimli elemente tıkla
+
+# Kampanyalar sayfasının tekrar açıldığı kontrol edilir
+*"Kampanyalar" isimli sayfa açıldıysa "com.ozdilek.ozdilekteyim:id/recyclerView" li elementin boş olup olmadığını kontrol et
+
+# Hesabım butonuna tıklanır
+*"com.ozdilek.ozdilekteyim:id/nav_account" id li ve "Hesabım" isimli elemente tıkla
+
+# Giriş yapma sayfasının açıldığı ikinci kez kontrol edilir
+* "Giriş yapma" isimli sayfa açıldıysa "com.ozdilek.ozdilekteyim:id/btnLogin" li elementin boş olup olmadığını kontrol et
+
+# Geri butonuna ikinci kez tıklanır
+* "com.ozdilek.ozdilekteyim:id/ivBack" id li ve "Geri" isimli elemente tıkla
+
+# Kampanyalar sayfasının tekrar açıldığı ikinci kez kontrol edilir
+* "Kampanyalar" isimli sayfa açıldıysa "com.ozdilek.ozdilekteyim:id/recyclerView" li elementin boş olup olmadığını kontrol et
+
+# Sepetim butonuna tıklanır
+* "com.ozdilek.ozdilekteyim:id/nav_cart" id li ve "Sepetim" isimli elemente tıkla
+
+# Giriş yapma sayfasının açıldığı üçüncü kez kontrol edilir
+* "Giriş yapma" isimli sayfa açıldıysa "com.ozdilek.ozdilekteyim:id/btnLogin" li elementin boş olup olmadığını kontrol et
+
+# Uygulama kapatılır
+* "5" kadar bekle
